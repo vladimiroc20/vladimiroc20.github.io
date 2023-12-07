@@ -27,6 +27,10 @@ html{
     align-items: center;
     padding: 10px 20px;
 }
+.tex__init{
+    color: white;
+    font-size: 20px;
+}
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
@@ -71,7 +75,7 @@ html{
 .inicio .contenido-banner{
     padding: 15px;
     background-color: #09778d;
-    max-width: 350px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
     border-radius: 10%;
@@ -82,7 +86,7 @@ html{
     border: 6px solid #ffffff;
     display: block;
     width: 100%;
-    height: 310px;
+    height: 400px;
     border-radius: 15%;
     margin: auto;
     
@@ -95,7 +99,7 @@ html{
 }
 .inicio .contenido-banner h2{
     font-size: 25px;
-    font-weight: normal;
+    font-weight:bold;
     color: white;
 }
 .inicio .contenido-banner .redes a{
