@@ -553,9 +553,13 @@ html{
     opacity: 0;
    }
 .portfolio .galeria .proyecto .overlay h3{
+    color: white;
     margin-bottom: 20px;
     transition: 1s;
    }
+.Ver__pag{
+    text-decoration: none;
+}
 .portfolio .galeria .proyecto .overlay:hover{
     opacity: 1;
    }
