@@ -55,6 +55,9 @@ html{
 .contenedor-header .luz:hover{
     color:#30d0ed
 }
+.contenedor-header .luz{
+    cursor:default;
+}
 .nav-responsive{
     background-color: #09778d;
     color:#fff;
@@ -67,7 +70,7 @@ html{
 .inicio{
     background: linear-gradient(to top, #12a7c5, #95e0ef, #f1f8f9);
     background-size: cover;
-    height: 120vh;
+    height: 150vh;
     display: flex;
     
 }
@@ -692,7 +695,22 @@ footer .arriba{
 }
 
 /* SECCION RESPONSIVE */
+@media (min-width: 1024px) {
+    .inicio .contenido-banner img{
+        width: 50%;
+    }
+    .inicio{
+        height: 60vh;
+    }
+}
+
 @media screen and (max-width:980px){
+    .inicio .contenido-banner img{
+        width: 50%;
+    }
+    .inicio{
+        height: 120vh;
+    }
     nav{
         display: none;
     }
@@ -716,6 +734,9 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
+    .inicio .contenido-banner img{
+        width: 80%;
+    }
     .sobremi .fila{
         display: block;
     }
